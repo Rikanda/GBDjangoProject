@@ -1,0 +1,23 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2169
+Not Found: /
+"GET / HTTP/1.1" 404 2169
+"GET /prefix HTTP/1.1" 301 0
+"GET /prefix/ HTTP/1.1" 200 13
+"GET /prefix/about HTTP/1.1" 301 0
+"GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-03-27 21:41:18,404 autoreload 8168 9428 Watching for file changes with StatReloader
+WARNING 2024-03-27 21:41:24,809 log 8168 1384 Not Found: /
+WARNING 2024-03-27 21:41:24,810 basehttp 8168 1384 "GET / HTTP/1.1" 404 2169
+INFO 2024-03-27 21:41:34,849 views 8168 1384 Index page accessed
+INFO 2024-03-27 21:41:34,849 basehttp 8168 1384 "GET /prefix/ HTTP/1.1" 200 13
+ERROR 2024-03-27 21:41:41,066 views 8168 1384 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Projects\GBDjangoProject\myproject\myapp\views.py", line 17, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-03-27 21:41:41,067 basehttp 8168 1384 "GET /prefix/about/ HTTP/1.1" 200 27
