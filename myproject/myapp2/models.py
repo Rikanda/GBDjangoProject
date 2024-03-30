@@ -1,6 +1,10 @@
 from django.db import models
 
 
+class Model(models.Model):
+    objects = models.Manager()
+
+
 # Create your models here.
 class User(models.Model):
     name = models.CharField(max_length=100)
