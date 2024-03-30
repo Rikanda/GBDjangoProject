@@ -1,8 +1,8 @@
 from django.db import models
 
 
-class Model(models.Model):
-    objects = models.Manager()
+# class Model(models.Model):
+#     objects = models.Manager()
 
 
 # Create your models here.
