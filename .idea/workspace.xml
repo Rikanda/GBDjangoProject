@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f4e7071-b001-4091-9ec2-259ae35f8878" name="Changes" comment="second lesson">
+      <change afterPath="$PROJECT_DIR$/myproject/myapp2/management/commands/delete_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp2/management/commands/fake_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp2/management/commands/upgrade_user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp2/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myapp2/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711987322644</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="second lesson">
+      <option name="closed" value="true" />
+      <created>1712083477371</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712083477371</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

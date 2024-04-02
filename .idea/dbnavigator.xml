@@ -9,6 +9,24 @@
     <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
+  <component name="DBNavigator.Project.DataExportManager">
+    <export-instructions>
+      <create-header value="true" />
+      <friendly-headers value="false" />
+      <quote-values-containing-separator value="true" />
+      <quote-all-values value="false" />
+      <value-separator value="" />
+      <begin-quote value="&quot;" />
+      <end-quote value="&quot;" />
+      <file-name value="" />
+      <file-location value="" />
+      <scope value="GLOBAL" />
+      <destination value="FILE" />
+      <format value="EXCEL" />
+      <charset value="windows-1251" />
+      <charset value="windows-1251" />
+    </export-instructions>
+  </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
@@ -25,16 +43,13 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="0a09b6e2-2ae6-4bb9-96f2-91dffe330a7c" object-ref="consoles/Connection" />
+      <object connection-id="0a09b6e2-2ae6-4bb9-96f2-91dffe330a7c" object-ref="schemas/main/tables/myapp2_author" />
       <object connection-id="0a09b6e2-2ae6-4bb9-96f2-91dffe330a7c" object-ref="schemas/main/tables/myapp2_user" />
+      <object connection-id="0a09b6e2-2ae6-4bb9-96f2-91dffe330a7c" object-ref="schemas/main/tables/myapp2_post" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="0a09b6e2-2ae6-4bb9-96f2-91dffe330a7c" />
-  </component>
-  <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="0a09b6e2-2ae6-4bb9-96f2-91dffe330a7c" dataset="main.myapp2_order_products" active-filter-id="" />
-    <filter-actions connection-id="0a09b6e2-2ae6-4bb9-96f2-91dffe330a7c" dataset="main.myapp2_user" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
