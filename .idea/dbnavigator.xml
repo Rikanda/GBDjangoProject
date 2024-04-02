@@ -43,13 +43,17 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
+      <object connection-id="0a09b6e2-2ae6-4bb9-96f2-91dffe330a7c" object-ref="consoles/Connection" />
       <object connection-id="0a09b6e2-2ae6-4bb9-96f2-91dffe330a7c" object-ref="schemas/main/tables/myapp2_author" />
-      <object connection-id="0a09b6e2-2ae6-4bb9-96f2-91dffe330a7c" object-ref="schemas/main/tables/myapp2_user" />
       <object connection-id="0a09b6e2-2ae6-4bb9-96f2-91dffe330a7c" object-ref="schemas/main/tables/myapp2_post" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="0a09b6e2-2ae6-4bb9-96f2-91dffe330a7c" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="0a09b6e2-2ae6-4bb9-96f2-91dffe330a7c" dataset="main.myapp2_author" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="0a09b6e2-2ae6-4bb9-96f2-91dffe330a7c" dataset="main.myapp2_post" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
@@ -81,7 +85,7 @@
           <deprecated-pwd value="" />
         </database>
         <properties>
-          <auto-commit value="false" />
+          <auto-commit value="true" />
         </properties>
         <ssh-settings>
           <active value="false" />
